@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background.jpeg");
+    background-size: cover;
+}
+
+hr {
+    margin: 0;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BCFD4C;
+    margin-left: 10pt;
+    display: inline-block;
+    width: 250px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BCFD4C;
+    margin-left: 10pt;
+    background-color: #6E6E6E;
+    font-size: 15pt;
+    border-radius: 15px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #BCFD4C;
+  text-align: left;
+  margin-left: 10pt;
+}
+
+.about {
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  background-color: #6E6E6E;
+  padding:1em;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  background-color: #6E6E6E;
+  padding:1em;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.iframe {
+  text-align: center;
+}
+
+/* Modify H1 headers with class index_main */
+.index_main {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BCFD4C;
+    text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #6E6E6E;
+    overflow: hidden;
+    font-size: 2em;
+    padding: 0;
+    align-self: center;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #BCFD4C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #BCFD4C;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #BCFD4C;
+    color: black;
+  }
+  
